@@ -11,8 +11,10 @@ Ex:  let obj = {
         allDay: false,
     }
     
- Two inbuilt methods have been used : eventRender and eventAfterRender .
+Two inbuilt methods have been used : eventRender and eventAfterRender:
+ 
 eventRender gets called before the event is rendered. I have used this method to add the styling to the other events based on  the overlap time.
+
 eventAfterRender gets called after the event is rendered. I have used this method to style the 'Me' event based on the overlap duration.
 
 
