@@ -1,0 +1,14 @@
+.fc-ltr .fc-time-grid .fc-event-container{
+    margin: 0 10px;
+}
+
+.fc .fc-view-container table{
+    width: 620px;
+}
+
+a.fc-time-grid-event.fc-v-event.fc-event.fc-start.fc-end.matched{
+    background: #008000;
+}
+a.fc-time-grid-event.fc-v-event.fc-event.fc-start.fc-end.notmatched{
+    background: #000;
+}
